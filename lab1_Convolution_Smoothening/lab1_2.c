@@ -13,8 +13,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
-
+int main(int argc, char *argv[])
 {
 FILE		*fpt;
 unsigned char	*image;
@@ -27,10 +26,17 @@ float sum;
 struct timespec	tp1,tp2;
 int data;
 
-	/* read image */
-if ((fpt=fopen("bridge.ppm","rb")) == NULL)
+if (argc != 2)
   {
-  printf("Unable to open bridge.ppm for reading\n");
+  printf("Usage:  lab1_1 [filename] \n");
+  exit(0);
+  }
+
+	/* read image */
+if ((fpt=fopen(argv[1],"rb")) == NULL)
+  {
+  // std::cout<<"Unable to open "<<argv[1]<<" for reading\n";  
+  printf("Unable to open %s for reading\n",argv[1]);
   exit(0);
   }
 fscanf(fpt,"%s %d %d %d",header,&COLS,&ROWS,&BYTES);
