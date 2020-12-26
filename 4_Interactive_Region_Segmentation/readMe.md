@@ -25,9 +25,9 @@ Option to change colour of the segmented region is also provided to the user, it
 dishwasher.ppm image in the prject folder has been used for this demo.
 
 ## Procedure
-1.This file needs to be opened in MS Visual Studio.
+1. This file needs to be opened in MS Visual Studio.
 
-2.Open plus.sln , and in solution explorer window , right click the project and "Retarget Projects"
+2. Open plus.sln , and in solution explorer window , right click the project and "Retarget Projects".
 
 3. Build -> Build Solution
 
