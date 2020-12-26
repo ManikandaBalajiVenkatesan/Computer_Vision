@@ -19,10 +19,13 @@ For a range of threshold from 0 to 255 the normalized image is looped through an
 The TP, TN, FP, FN for differnt threshold are tabulated and generated as "ROC_curve_data" file.
 
 Using the above data True Positive Rate (TPR) vs False Positive Rate (FPR) graph is plotted and it can be seen that performance is optimal at a threshold of 212.
+
 ![](images/roc_curve.png)
 
 To see the pixels where MSF has detected the letter "e" , detected_img_gen.c file is given, to which normalized_msf image, original image and desired threshold are to be passed as parameter and it generates bounding boxes on the original image based on wherever letter "e" is detected along with a binar image as well indicating the same.
+
 ![](images/det_img_threshold.png)
+
 It can be observed that there were quite a lot of False Positive due to similarity in shape between letter letters like "e", "o", "a" etc.
 
 
