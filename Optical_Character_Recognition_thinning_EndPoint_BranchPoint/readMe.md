@@ -1,3 +1,4 @@
+# Optical Character Recognition by thinning of edges
 When we try to determine character using Matched Spatial filter (MSF) in previous section there were lot of false positives , in order to reduce that thinning approach is used here.
 
 ![](images/parenthood.png)
