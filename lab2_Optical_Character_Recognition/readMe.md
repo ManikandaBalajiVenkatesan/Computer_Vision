@@ -18,7 +18,7 @@ Once MSF is performed the image is normalized between 0 to 255.
 For a range of threshold from 0 to 255 the normalized image is looped through and if the pixel value was higher than the threshold it is assumed that letter "e" is detected, this detection is compared against the ground truth data to identify True Positives(TP), True Negative(TN), False Positive(FP), False Negative(FN) and thereby form a truth table.
 The TP, TN, FP, FN for differnt threshold are tabulated and generated as "ROC_curve_data" file.
 
-Using the above data True Positive Rate (TPR) vs False Positive Rate (FPR) graph is plotted and it can be seen that performance is optimal at a threshold of 212.
+Using the above data Receiver Operating Characteristice graph is plotted (True Positive Rate (TPR) vs False Positive Rate (FPR)) and it can be seen that performance is optimal at a threshold of 212.
 
 ![](images/roc_curve.png)
 
