@@ -1,4 +1,5 @@
 When we try to determine character using Matched Spatial filter (MSF) in previous section there were lot of false positives , in order to reduce that thinning approach is used here.
+
 ![](images/parenthood.png)
 
 This is built on top of MSF normalized image. The MSF image data is run through different threshold values and Wherever the MSF process says letter "e" has been detected, a section of the image around the detection pixel is taken and a thinning algorithm is applied to reduce the thickness of letter to single pixel thickness.
