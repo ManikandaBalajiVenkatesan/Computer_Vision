@@ -1,6 +1,6 @@
 # Interactive Region Growth
 
-![](/images/region_growth.gif)
+![](images/region_growth.gif)
 
 This module is built upon the project starter code and stub for queue based region segmentation provided by Dr. Adam Hoover in his course.
 
