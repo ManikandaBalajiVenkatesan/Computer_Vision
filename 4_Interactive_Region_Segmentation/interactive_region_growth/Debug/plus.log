@@ -1,0 +1,7 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main.c
+C:\Users\Manikanda\Documents\GitHub\Computer_Vision\4_Interactive_Region_Segmentation\interactive_region_growth\main.c(412,6): warning C4101: 'hDC': unreferenced local variable
+C:\Users\Manikanda\Documents\GitHub\Computer_Vision\4_Interactive_Region_Segmentation\interactive_region_growth\main.c(413,7): warning C4101: 'text': unreferenced local variable
+C:\Users\Manikanda\Documents\GitHub\Computer_Vision\4_Interactive_Region_Segmentation\interactive_region_growth\main.c(528,39): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+C:\Users\Manikanda\Documents\GitHub\Computer_Vision\4_Interactive_Region_Segmentation\interactive_region_growth\main.c(528,35): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+  plus.vcxproj -> C:\Users\Manikanda\Documents\GitHub\Computer_Vision\4_Interactive_Region_Segmentation\interactive_region_growth\Debug\plus.exe
